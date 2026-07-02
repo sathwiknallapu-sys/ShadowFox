@@ -1,0 +1,24 @@
+# Datasets (auto-downloaded by torchvision — don't commit large binary data)
+data/
+*.tar.gz
+
+# Trained model weights (large binary files — regenerate via train.py)
+models/*.pth
+# Keep the training curve plot, ignore only the weights above.
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+*.swp
